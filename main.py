@@ -212,3 +212,12 @@ elif functionality == "Feedback":
     st.text_area("Please leave your feedback and suggestions here:")
     if st.button("Submit"):
         st.success("Thanks for your feedback!")
+
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
