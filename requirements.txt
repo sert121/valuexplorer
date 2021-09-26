@@ -3,4 +3,3 @@ requests
 pandas
 numpy
 altair
-fast_autocomplete

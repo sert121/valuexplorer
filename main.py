@@ -5,9 +5,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-import csv
-from fast_autocomplete.misc import read_csv_gen
-from fast_autocomplete import AutoComplete
+
 from io import StringIO
 def call_api(search_query):
     url = "https://inference.hackzurich2021.hack-with-admin.ch/api/question/hack_zurich"
