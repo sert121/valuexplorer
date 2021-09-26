@@ -45,7 +45,7 @@ if functionality == "Search database using ValueNet":
 
 
 
-    search_query = st.text_input("Search...", value='How many cars were sold in total in the year of 2020?', max_chars=None, key=None, type='default', help="Please enter your search query here", autocomplete="enter", on_change=None, args=None, kwargs=None)
+    search_query = st.text_input("Search...", value='How many cars are available?', max_chars=None, key=None, type='default', help="Please enter your search query here", autocomplete="enter", on_change=None, args=None, kwargs=None)
     if st.button("Submit"):
         # with st.expander("See example"):
         #   st.write("here's the example",expanded=False)
